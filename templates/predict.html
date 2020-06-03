@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>predict</title>
+</head>
+<body>
+    {% for item in results %}
+    <p>title: {{item.title}}</p>
+    <p >description: {{item.description}}</p>
+    <p>address: {{item.address}}</p>
+    <p >Price: {{item.Price}}</p>
+    <p >Area: {{item.Area}}</p>
+    <p >Room: {{item.Room}}</p>
+    <p >Cach truong gan nhat : {{item.range_school}}</p>
+    <p >Cach trung tam thanh pho : {{item.range_tt}}</p>
+    <p >districtName: {{item.districtName}}</p>
+    <p >provinceName : {{item.provinceName}}</p>
+    <p >========================================================</p>
+    {% endfor %}
+</body>
+</html>
